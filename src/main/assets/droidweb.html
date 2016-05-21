@@ -1,0 +1,9 @@
+<input type="text" value="Text to Toast" id="message"/>
+<input type="button" value="Toast it!" onClick="showAndroidToast()" />
+
+<script type="text/javascript">
+    function showAndroidToast() {
+        var message = document.getElementById("message").value;
+        android.showToast(message);
+    }
+</script>

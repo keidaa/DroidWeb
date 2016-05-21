@@ -1,7 +1,7 @@
 make sure compileSdkVersion and buildToolsVersion is correct in build.gradle
 follow this guide if you have problems: https://spring.io/guides/gs/gradle-android/
 
-from project root:
+from project root::
     gradlew build
 
 from android-sdk folder:
